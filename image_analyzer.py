@@ -210,8 +210,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    # The problematic placeholder checks have been removed.
-    # The script will now directly call analyze_image with the provided arguments.
 
     analyze_image(
         bucket_name=args.bucket,
